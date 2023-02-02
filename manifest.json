@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Claro e Escuro",
+  "description": "Na teoria, é pra mudar a página para tema claro ou escuro",
+  "version": "1.5",
+  "permissions": [
+    "activeTab"
+],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "claroescuro.png",
+    "default_popup": "claroescuro.html"
+  }
+}
